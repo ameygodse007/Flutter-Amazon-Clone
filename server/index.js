@@ -11,7 +11,7 @@ const userRouter = require("./routes/user");
 const PORT = process.env.PORT || 3000;
 const app = express();
 const DB =
-  "mongodb+srv://ameygodse7:test123@cluster0.tykhgia.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://ameygodse7:<password>@cluster0.tykhgia.mongodb.net/?retryWrites=true&w=majority";
 
 // middleware
 app.use(express.json());
